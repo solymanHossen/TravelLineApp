@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import Footer from './components/Footer';
+import GloballyAccepted from './components/GloballyAccepted';
+import Hero from './components/Hero';
+import LastestNews from './components/LastestNews ';
+import NavBar from './components/NavBar';
+import OurTeam from './components/OurTeam';
+import Promotional from './components/Promotional';
+import Testimonial from './components/Testimonial';
+import Text from './components/Text';
+import Watch from './components/Watch';
+import WhyChooseUs from './components/WhyChooseUs';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <NavBar/>
+   <Hero/>
+   <Promotional/>
+   <GloballyAccepted/>
+   <Watch/>
+   <OurTeam/>
+   <WhyChooseUs/>
+   <Testimonial/>
+   <LastestNews/>
+  
+   <Footer/>
+   
+   </>
   );
-}
+};
 
 export default App;

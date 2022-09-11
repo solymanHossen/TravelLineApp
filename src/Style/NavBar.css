@@ -1,0 +1,44 @@
+.main-item-grid{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.02em;
+
+text-decoration: none;
+}
+
+.btn-nav{
+color: white;
+font-size: 22px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0.02em;
+padding: 23px 39px;
+height: 80px;
+border-radius: 80px;
+background: #B25A59;
+border: none;
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .main-item-grid{
+    display: none;
+  }
+  .btn-nav{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 20px 30px;
+  }
+}
+@media only screen and (max-width: 998px) {
+ 
+}

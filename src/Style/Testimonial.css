@@ -1,0 +1,67 @@
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 800px;
+}
+
+.testimonial-head {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+
+
+}
+
+.testimonial-title {
+  font-family: Nunito Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0em;
+  color: #7F2736;
+
+}
+.content{
+  width: 70%;
+}
+
+.thought {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  padding: 22px 38px;
+  border-radius: 80px;
+  border: 1px solid #EE5060;
+  color: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.arrow-icon {
+  border-radius: 50%;
+
+  border: 2px solid #EE5060;
+
+}
+
+.img-testimonial {
+  height: 750px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 990px) {
+
+  .testimonial-grid {
+  
+    grid-template-columns: 1fr ;
+    
+  }
+  
+  }

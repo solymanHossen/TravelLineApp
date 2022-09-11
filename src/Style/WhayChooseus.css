@@ -1,0 +1,67 @@
+.choose-us-p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+ .card-title {
+  margin-top: 122px;
+}  
+
+/* .chooseus-bgc {
+  margin-top: 155px;
+} */
+
+.choose-content {
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.card1 {
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgb(38 45 118 / 8%);
+  border-radius: 20px;
+  border: none;
+
+ 
+
+}
+
+
+
+.card-title-p {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.card-content {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+ padding-top: 70px;
+ padding-bottom: 50px;
+}
+
+.star-icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ 
+  border: 20px solid 
+  #EE5060;
+  background: 
+  #EE5060;
+  color: white;
+}

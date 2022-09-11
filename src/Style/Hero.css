@@ -1,0 +1,51 @@
+ .navContainer-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+} 
+.epolore-button{
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+
+}
+.heroimg{
+  width: 100%;
+  text-align: right;
+
+}
+.explore-btn{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+padding: 23px 40px;
+border-radius:88px;
+background: #B25A59;
+border: none;
+color: white;
+
+}
+
+/* responsive */
+@media only screen and (max-width: 1164px) {
+
+  .navContainer-hero{
+    grid-template-columns: 1fr;
+    width: 70%;
+  
+  }
+}
+@media only screen and (max-width: 998px) {
+
+  .epolore-button{
+   display: flex;
+   flex-direction: column;
+  }
+  .explore-btn{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 32px;
+  }
+}

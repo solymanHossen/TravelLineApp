@@ -1,0 +1,70 @@
+.btn-demostic{
+  font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 33px;
+padding: 24px 58px;
+background: gray;
+
+
+text-align: center;
+border: 1px solid #FFFFFF;
+border-radius: 80px;
+/* transform: rotate(0.51deg); */
+
+color: white;
+
+/* opacity: 0.8; */
+
+
+}
+.domestic{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  right: 29%;
+  bottom: 43%;
+}
+.-gcolor{
+
+ color:  #2C2D32;
+}
+.g-color2{
+
+  color: #7F2736;
+}
+.golobalContent{
+  width: 70%;
+  margin: 0 auto
+
+}
+.domestic-p{
+  font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+.golobal-p{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+
+@media only screen and (max-width: 900px) {
+ .btn-demostic{
+  padding: 18px 32px;
+ }
+ .domestic{
+right: 20%;
+ }
+  }
