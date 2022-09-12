@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
 
   font-size: 24px;
@@ -16,67 +16,74 @@ body{
   line-height: 43px;
   letter-spacing: 0.02em;
   text-align: center;
-  
+
 
 }
 
-.title-all{
-font-family: 'Nunito Sans', sans-serif;
-font-size: 54px;
-font-weight: 700;
-line-height: 74px;
-letter-spacing: 0em;
+.title-all {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
 
 }
-.font-color{
+
+.font-color {
   color: #7F2736;
 }
-.navContainer{
-  
+
+.navContainer {
+
   max-width: 1720px;
   padding-right: 0.75rem;
-  padding-right: var(--bs-gutter-x,.75rem);
+  padding-right: var(--bs-gutter-x, .75rem);
   padding-left: 0.75rem;
-  padding-left: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
   margin-left: auto;
-}
-.promoContainer{
-  
-  max-width: 1417px;
-  padding-right: 0.75rem;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: 0.75rem;
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-.footerContainer{
-  
-  max-width: 1920px;
-  padding-right: 0.75rem;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: 0.75rem;
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-.globallyContainer{
- max-width: 1300px;
-  padding-right: 0.75rem;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: 0.75rem;
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-li{
-list-style: none;
-}
-a{
-  text-decoration: none;
-}
-.navBGC{
-  background:  #F0C53E;
 }
 
+.promoContainer {
+
+  max-width: 1417px;
+  padding-right: 0.75rem;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: 0.75rem;
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footerContainer {
+
+  max-width: 1920px;
+  padding-right: 0.75rem;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: 0.75rem;
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.globallyContainer {
+  max-width: 1300px;
+  padding-right: 0.75rem;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: 0.75rem;
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navBGC {
+  background: #F0C53E;
+}

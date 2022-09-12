@@ -1,5 +1,5 @@
 .color-item {
-color:
+  color:
     #7F2736;
 
 }
@@ -9,17 +9,19 @@ color:
     #2F327D;
 
 }
-.promo-p{
- 
-font-size: 24px;
-font-weight: 400;
-line-height: 43px;
-letter-spacing: 0em;
 
-width: 100%;
+.promo-p {
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+
+  width: 100%;
 
 }
-.promotional-content{
+
+.promotional-content {
   width: 70%;
   margin: 0 auto;
 }

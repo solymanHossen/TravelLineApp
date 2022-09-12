@@ -23,7 +23,8 @@
   color: #7F2736;
 
 }
-.content{
+
+.content-testimonial {
   width: 70%;
 }
 
@@ -59,9 +60,9 @@
 @media only screen and (max-width: 990px) {
 
   .testimonial-grid {
-  
-    grid-template-columns: 1fr ;
-    
+
+    grid-template-columns: 1fr;
+
   }
-  
-  }
+
+}

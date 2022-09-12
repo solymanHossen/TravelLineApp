@@ -1,36 +1,53 @@
+
+import Container from 'react-bootstrap/Container';
+
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import logo from "../Asset/logo.png"
-
-import styled from 'styled-components';
-import '../Style/NavBar.css'
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import { MdOutlineCall } from "react-icons/md"
+import "../Style/NavBar.css"
 
-
-
-const Logo = styled.img`
-height: 83px;
-`;
-
-const NavBar = () => {
+function Text() {
   return (
-    <div className="navBGC">
-      <div className="navContainer ">
-        <div className="mainNav d-flex justify-content-between align-items-center">
-          <Logo src={logo} />
-          <ul className="main-item-grid">
-            <li> <a href="" className="text-decoration-none">Home</a> </li>
-            <li> <a href="" className="text-decoration-none">Events</a></li>
-            <li><a href="" className="text-decoration-none">About</a></li>
-            <li><a href="" className="text-decoration-none">Blog</a></li>
-            <li><a href="" className="text-decoration-none">Contact</a></li>
-          </ul>
-          <div className="phone-button">
-            <button className="btn-nav" ><MdOutlineCall></MdOutlineCall> +1 (000) 000 000</button>
+    <>
+      {['xxl'].map((expand) => (
+        <div className="bgc">
+          <div className="navContainer ">
+            <Navbar key={expand} expand={expand} className="mb-3 " >
+              <Container fluid>
+                <Navbar.Brand href="#"><img src={logo} alt="logoImg" /></Navbar.Brand>
+                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                <Navbar.Offcanvas
+                  id={`offcanvasNavbar-expand-${expand}`}
+                  aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+                  placement="start"
+                >
+                  <Offcanvas.Header closeButton>
+                    <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                      <img src={logo} alt="logoImg" />
+                    </Offcanvas.Title>
+                  </Offcanvas.Header>
+                  <Offcanvas.Body>
+                    <Nav className="justify-content-center align-items-center flex-grow-1 pe-3 main-nav-content">
+                      <Nav.Link className='a-hover' href="#action1">Home</Nav.Link>
+                      <Nav.Link className='a-hover' href="#action2">Event</Nav.Link>
+                      <Nav.Link className='a-hover' href="#action2">About</Nav.Link>
+                      <Nav.Link className='a-hover' href="#action2">Blog</Nav.Link>
+                      <Nav.Link className='a-hover' href="#action2">Contact</Nav.Link>
+                    </Nav>
+                    <div className="phone-button">
+                      <button className="btn-nav" ><MdOutlineCall></MdOutlineCall> +1 (000) 000 000</button>
+                    </div>
+                  </Offcanvas.Body>
+                </Navbar.Offcanvas>
+              </Container>
+            </Navbar>
           </div>
         </div>
-      </div>
-    </div>
-
+      ))}
+    </>
   );
 }
 
-export default NavBar;
+export default Text;

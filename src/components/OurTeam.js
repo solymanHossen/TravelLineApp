@@ -19,7 +19,7 @@ const OurTeam = () => {
             <p className='title-all'>Our team is the secret to our success</p>
           </div>
           <div className="p-content-ourTeam d-flex">
-            <span><AiFillWindows className='icon-color'/></span><p className='p-content-p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <span><AiFillWindows className='icon-color' /></span><p className='p-content-p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
           </div>
 
           <div className="p-content-ourTeam d-flex">

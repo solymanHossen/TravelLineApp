@@ -1,26 +1,29 @@
-.promo-grid{
+.promo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 100px;
 }
-.outrteam-bgc{
+
+.outrteam-bgc {
   margin-top: 250px;
 }
-.ourTeam-content{
+
+.ourTeam-content {
   padding-left: 4rem;
   padding-top: 4rem;
 
 }
-.p-content-p{
+
+.p-content-p {
   font-family: Poppins;
   font-size: 22px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0.02em;
   padding-left: 58px
-  
 }
-.icon-color{
+
+.icon-color {
 
   color: rgb(43, 35, 35);
   height: 26px;
@@ -30,22 +33,25 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .promo-grid{
+  .promo-grid {
     grid-template-columns: 1fr;
   }
-  .outrteam-bgc{
+
+  .outrteam-bgc {
     margin-top: 450px;
   }
-  }
+}
+
 @media only screen and (max-width: 598px) {
 
-  .outrteam-bgc{
+  .outrteam-bgc {
     margin-top: 524px;
   }
-  }
+}
+
 @media only screen and (max-width: 438px) {
 
-  .outrteam-bgc{
+  .outrteam-bgc {
     margin-top: 100px;
   }
-  }
+}
